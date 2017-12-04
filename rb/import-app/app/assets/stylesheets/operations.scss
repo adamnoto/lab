@@ -1,0 +1,47 @@
+// Place all the styles related to the Operations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#operations-uploader {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+  display: block;
+}
+
+#operations-uploader-progress {
+  height: 20px;
+  display: none;
+}
+
+#upload-status-report {
+  display: none;
+}
+
+#upload-status-detail {
+  display: none;
+}
+
+.company-accordion {
+  margin-bottom: 10px;
+  .company-stat {
+    float: right;
+    display: inline-block;
+  }
+  .operation-table {
+    margin-top: 5px;
+    table-layout: fixed;
+  }
+}

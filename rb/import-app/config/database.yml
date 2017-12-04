@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: importapp_dev
+  pool: 5
+  username: adampahlevi
+
+test:
+  adapter: postgresql
+  database: importapp_test
+  pool: 5
+  username: adampahlevi

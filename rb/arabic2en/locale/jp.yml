@@ -1,0 +1,49 @@
+number_sayer:
+  minus: mainasu
+
+  power:
+    0: ' ichi'
+    1: '-ju'
+    2: '-hyaku'
+    3: '-sen'
+    4: '-man'
+    8: '-oku'
+    12: '-cho'
+    16: '-kei'
+    20: '-gai'
+    24: '-jo'
+    28: '-jo'
+    32: '-ko'
+    36: '-kan'
+    40: '-sei'
+    44: '-sai'
+    48: '-goku'
+    52: '-gogasha'
+    56: '-asogi'
+    60: '-nayuta'
+    64: '-fukashigi'
+    68: '-muryotaisu'
+
+  numerals:
+    0: rei
+    1: ichi
+    2: ni
+    3: san
+    4: yon
+    5: go
+    6: roku
+    7: nana
+    8: hachi
+    9: kyu
+    10: ju
+    11: ju-ichi
+    12: ju-ni
+    13: ju-san
+    14: ju-yon
+    15: ju-go
+    16: ju-roku
+    17: ju-nana
+    18: ju-hachi
+    19: ju-kyu
+    100: hyaku
+    300: san-byaku

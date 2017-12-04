@@ -1,0 +1,36 @@
+.jumbotron
+  h1.display-3 Upload operations
+  p.lead
+    | You can only upload a CSV file. The first row (the header) will not be&nbsp;
+    | processed. A row can contain the company, invoice number, invoice date,&nbsp;
+    | operation date, amount, reporter, notes, status and kind. The kind&nbsp;
+    | column allows multiple values separated by a semicolon.
+  hr.my-4
+  span.btn.btn-primary.fileinput-button#upload-button
+    i.glyphicon.glyphicon-plus
+    span Upload CSV 
+    input id='operations-uploader' type='file' name='file' data-url=import_operations_path
+  br
+  br
+  .progress#operations-uploader-progress
+    .progress-bar role='progressbar' style='width: 0px;' aria-valuemin='0' aria-valuemax='100'
+  #upload-status-report
+    span
+      | Total rows:&nbsp;
+      strong.total-rows-count
+      | .&nbsp;Processed:&nbsp;
+      strong.processed-data-count
+      | .&nbsp;Failed:&nbsp;
+      strong.failed-count
+      | .&nbsp;Success:&nbsp;
+      strong.success-count
+      | .
+
+#upload-status-detail
+  h2.muted Error details
+  table.table.table-striped.table-dark
+    thead
+      tr
+        th Row
+        th Error
+    tbody

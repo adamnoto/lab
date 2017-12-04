@@ -1,0 +1,10 @@
+nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+  a.navbar-brand href='#' Import App
+  button.navbar-toggler type='button' data-toggle='collapse' data-target='#navbarCollapse' aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation'
+    span.navbar-toggler-icon
+  .collapse.navbar-collapse#navbarCollapse
+    ul.navbar-nav.mr-auto
+      li.nav-item class="#{"active" if at_home_page?}"
+        a.nav-link href=operations_path Operations
+      li.nav-item class="#{"active" if at_import_page?}"
+        a.nav-link href=import_operations_path Import operations

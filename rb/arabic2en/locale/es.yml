@@ -1,0 +1,46 @@
+number_sayer:
+  minus: menos 
+  power:
+    0: ''
+    1: ''
+    2: ' ciento'
+    3: ' mil'
+
+  numerals:
+    1: uno
+    2: dos
+    3: tres
+    4: cuatro
+    5: cinco
+    6: seis
+    7: siete
+    8: ocho
+    9: nueve
+    10: diez
+    11: once
+    12: doce
+    13: trece
+    14: catorce
+    15: quince
+    16: dieciseis
+    17: diecisiete
+    18: dieciocho
+    19: diecinueve
+    20: veinte
+    21: vientiuno
+    30: treinta y
+    40: cuarenta y
+    50: cincuenta
+    60: sesenta
+    70: setenta
+    80: ochenta
+    90: noventa
+    100: ciento
+    200: doscientos
+    300: trescientos
+    400: cuatrocientos
+    500: quinientos
+    600: seiscientos
+    700: setecientos
+    800: ochocientos
+    900: novecientos
